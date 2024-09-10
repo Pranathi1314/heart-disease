@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings(action="ignore")
 
 # Streamlit app
-st.title("Heart Disease Prediction App")
+st.title("Heart Disease Prediction")
 
 # Load data
 df = pd.read_csv("heart.csv")
